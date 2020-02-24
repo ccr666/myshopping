@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+   <link rel="stylesheet" href="../CSS/common.css">
+   <link rel="stylesheet" href="../CSS/goodDetail.css">
+   <link rel="stylesheet" href="http://at.alicdn.com/t/font_1593866_xjv8m5dtkn.css">
+   <link rel="stylesheet" href="../CSS/swiper.css">
+   <link rel="stylesheet" href="../plugin/exzoom/jquery.exzoom.css">
+   
+   <script src="../plugin/js/jquery-1.11.3.js"></script>
+   <script src="../plugin/exzoom/jquery.exzoom.js"></script>
+   <script src="../swiper/swiper.js"></script>
+    
+ 
+    
+</head>
+
+<body>
+    <div id="header"></div>
+    <!-- index内容start -->
+    <div class="goodWrap">
+      <div class="goodTop">
+          <span class="fs_14">女装</span>
+          <span class="fs_14">></span>
+          <span class="fs_14">外套</span>
+          <span class="fs_14">></span>
+          <span class="fs_14">女装|工装风格纯色半高领外套</span>
+      </div>
+      <div class=" inner_b goodShow float_l">
+          <!-- <div class="smallImg">
+           <img src="https://uxresources.baozun.com/prod/88000136/20200103/FB206A978F181BEB1B21179BE5EE9909.jpg?x-oss-process=image/interlace,1/resize,m_pad,w_78,h_102" alt="">
+          </div>
+          <div class="bigImag">
+            <img style="width: 486px;height: 648px;" src="https://uxresources.baozun.com/prod/88000136/20200103/FB206A978F181BEB1B21179BE5EE9909.jpg?x-oss-process=image/resize,m_pad,h_1296,w_972">
+          </div> -->
+          <div class="goodsImg">
+            <div class="exzoom" id="exzoom">
+                <!--大图区域-->
+                <div class="exzoom_img_box">
+                    <ul class='exzoom_img_ul'>
+                        <li><img src="../imags/a1.png"/></li>
+                        <li><img src="../imags/a2.png"/></li>
+                        <li><img src="../imags/a3.png"/></li>
+                        <li><img src="../imags/a4.png"/></li>
+                        <li><img src="../imags/a5.png"/></li>
+                        <li><img src="../imags/a3.png"/></li>
+                        <li><img src="../imags/a4.png"/></li>
+                        <li><img src="../imags/a5.png"/></li>
+                    </ul>
+                </div>
+                <!--缩略图导航-->
+                <div class="exzoom_nav"></div>
+                <!--控制按钮-->
+                <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+            </div>
+            <script type="text/javascript">
+                $("#exzoom").exzoom({
+                    autoPlay: false,
+                });//方法调用，务必在加载完后执行
+            </script>
+        </div>
+          
+      </div>
+      <div class="inner_b goodInfo float_r">
+          <span class="newGoods fs_14 fc_fff">新品</span>
+          <div class="googTop">
+              <h4 class="fs_18 fw_600 fc_333" style="padding-bottom:5px;">女装|工装风格纯色半高领外套</h4>
+              <span class="fs_12 fc_999">款号：000541588</span>
+          </div>
+          <div class="goodActive">
+              <span></span>
+              <span class="fs_12 fc_be2">活动</span>
+              <span class="fs_12">全场包邮</span>
+          </div>
+          <div class="goodPrice">
+              <span class="fs_20 fw_600 fc_be2">￥419.40</span>
+              <span class="fs_14 fc_999">￥699.40</span>
+          </div>
+          <div class="goodColor">
+              <span class="fs_14 fc_999">颜色：</span>
+              <span class="fs_14 fc_122 fw_600">橄榄绿</span>
+              <div class="colorImg">
+                  <ul>
+                      <li><img src="https://uxresources.baozun.com/prod/88000136/20200103/CCC0B2B86F4D76899CA4F186466FA9AF.jpg?x-oss-process=image/resize,m_mfit,h_24,w_24/rotate,180/crop,h_24/rotate,180"></li>
+                      <li><img src="https://uxresources.baozun.com/prod/88000136/20200103/7A7688F099944F30508821E00E2C9824.jpg?x-oss-process=image/resize,m_mfit,h_24,w_24/rotate,180/crop,h_24/rotate,180"></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="goodSize">
+              <span class="fs_14 fc_999">尺码</span>
+              <ul>
+                  <li>155/76A(XXXS)</li>
+                  <li>160/80A(XXS)</li>
+                  <li>165/84A(XS)</li>
+                  <li>165/88A(S)</li>
+                  <li>170/92A(M)</li>
+                  <li>170/96A(L)</li>
+              </ul>
+          </div>
+         
+          <div class="goodCount">
+              <div class="countText">
+                  <span class="fs_14 fc_999">数量:</span>
+                  <span class="fs_14 fw_600 fc_122" style="padding-left: 5px;">1</span>
+              </div>
+              <div class="countSpan">
+                  <span>-</span>
+                  <span>1</span>
+                  <span>+</span>
+              </div>
+              
+          </div>
+          <div class="goodButton">
+            <div class="clearPay" style="margin-top: 0;">
+                <span  class="fs_14  fw_600">加入购物车</span>
+            </div>
+            <div class="paybtn">
+                <span class="fs_14 fc_fff fw_600">立即购买</span>
+            </div>
+           
+           
+          </div>
+          <div class="goodShare float_r">
+            <span class="fs_14 fc_999">分享</span>
+            <span class="fs_14 fc_999"><i class="iconfont icon-fenxiang"></i></span>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+</body>
+<script src="../plugin/js/jquery-1.11.3.js"></script>
+<script src="../swiper/swiper.js"></script>
+<script>
+    $("#header").load("../common/header.html")
+    $("#footer").load("../common/footer.html")
+</script>
+<script>
+     $(".sizeLi").click(function(){
+        var val = $(this)[0].innerText;
+
+        // var len = $(".sizeLi").length;
+        // for(let i=0;i<len;i++){
+        //     $(".sizeLi")[i].style.color = "#cccccc"
+        // }
+        $(".sizeLi").removeClass("red")
+        $(this).addClass("red")
+        $("#chooseSize")[0].innerText = val;
+    })
+
+    var number = 1;
+    $("#addNum").click(function(){
+        number = number+1;
+        if(number>3){
+            number = 3;
+        }
+        console.log(number)
+        $("#nums")[0].innerText = number
+        $("#number").val(number)
+    })
+    $("#reduceNum").click(function(){
+        number = number-1;
+        if(number<1){
+            number = 1;
+        }
+        $("#nums")[0].innerText = number
+        $("#number").val(number)
+    })
+</script>
+</html>

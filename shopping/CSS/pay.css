@@ -1,0 +1,201 @@
+.payWrap{
+  width: 1200px;
+  /* background-color: aquamarine; */
+ 
+  margin: 0 auto;
+}
+.payHeader{
+    padding: 20px 0px;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.headerLeft span{
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+}
+.headerLeft span i{
+    font-size: 26px;
+}
+
+.logo{
+    width: 60px;
+    height: 40px;
+    background-color: #042f6a;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+}
+.headerRight{
+    
+    display: inline-block;
+    float: right;
+}
+.headerRight p{
+    display: inline-block;
+    font-size: 14px;
+}
+.payMain{
+    overflow: hidden;
+}
+.mainLeft{
+    float: left;
+    width: 842px;
+    height: 1000px;
+    background-color: bisque;
+    display: inline-block;
+}
+.mainRight{
+    width: 334px;
+    height: 1000px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.mainLeftTop{
+   
+    height: 50px;
+    background: #f5f5f5;
+    font-size: 18px;
+    line-height: 50px;
+    padding-left: 12px;
+    font-weight: 500;
+
+}
+.orderInfo{
+    padding-left: 10px;
+    padding-top: 24px;
+   
+}
+.phoneName{
+    display: inline-block;
+    width: 286px;
+}
+.phoneName span{
+    display: block;
+    margin-bottom: 16px;
+}
+.phoneName input{
+    height: 36px;
+    width: 250px;
+    color: #606266;
+
+}
+.phone{
+    display: inline-block;
+    margin-left: 10px;
+    width: 286px;
+}
+.phone span{
+    display: block;
+    margin-bottom: 16px;
+}
+.phone input{
+    height: 36px;
+    width: 250px;
+    color: #606266;
+
+}
+.address{
+    padding: 20px 0;
+}
+.addItem{
+    margin-right: 10px;
+}
+.proInput{
+    margin-top: 5px;
+    width: 173px;
+    height: 36px;
+    border: 1px solid #042f6a;
+}
+.proInput span{
+ line-height: 36px;
+  width: 198px;
+  height: 36px;
+ 
+}
+.proInput span{
+    font-size: 14px;
+    color: #606266;
+}
+.addressDetail{
+    margin-top: 20px;
+}
+.addressDetail p{
+    margin-bottom: 10px;
+}
+.addDetailInput{
+    width: 526px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.addDetailInput textarea{
+    padding: 10px;
+    height: 78px;
+    outline: none;
+}
+.goodInfo{
+    padding: 20px 0;
+    height: 150px;
+
+}
+.goodInfoTop{
+    width:100% ;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    line-height: 50px;
+}
+.goodInfoMain{
+    padding-top: 20px;
+    width: 100%;
+   
+}
+.mainImag img{
+    width: 80px;
+    height: 106px;
+}
+.mainText{
+    width: 270px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.mainTotalShow{
+    vertical-align: top;
+}
+.mainTotal{
+    vertical-align: top;
+}
+.payInfo{
+    padding: 20px 0;
+    height: 150px;
+}
+.payWay{
+    display: inline-block;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+
+}
+.paybtn span{
+    line-height: 40px;
+}
+.iconfontAli{
+    width: 28px;
+    height: 28px;
+}
+.aliPay input{
+    line-height: 28px;
+}
+.aliPay p{
+    line-height: 28px;
+}
+.invoice{
+    padding: 0 20px 30px;
+}
+.aliPay{
+    display: flex;
+    align-items: center;
+}

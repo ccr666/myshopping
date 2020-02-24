@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录注册</title>
+    <!-- <link rel="stylesheet" href="http://at.alicdn.com/t/font_1593866_lmoabnn0cer.css"> -->
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="http://at.alicdn.com/t/font_1593866_la10ov2lz1s.js"></script>
+    <script src="http://at.alicdn.com/t/font_1593866_drb9mrcw1f.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="header"></div>
+    <!-- 登录注册 -->
+    <div class="login">
+        <div class="login_wrap">
+            <div class="login_top">
+                    <div class="title_text inner_b fs_18 fc_333">短信快捷登录注册</div>
+                    <div class="title_password inner_b   fs_18 fc_333">账号密码登录</div>
+            </div>
+            <div class="login_middle">
+                <div class="login_mid_text">
+                    <p class="fs_14 fc_333"> 新会员注册成功后，可获赠10元无门槛会员欢迎礼券及首单双倍积分！</p>
+                    <p class="fs_14 fc_333">*新会员欢迎礼券将在1-2日送达您的帐户</p>
+                </div>
+                <div class="login_phone">
+                    <p class="fs_14 fc_333">手机号</p>
+                    <div class="login_phone_input ">
+                        <input type="text" placeholder="请输入手机号" class="fc_ccc fs_14 fc_333">
+                    </div>
+                </div>
+                <div class="login_tcode">
+                    <p class="fs_14 fc_333">图形验证码</p>
+                    <div class="login_phone_tcode">
+                        <input type="text" placeholder="请输入右侧图形中的验证码" class="fs_14 fc_333">
+                    </div>
+                </div>
+                <div class="login_code">
+                    <p class="fs_14 fc_333">验证码</p>
+                    <div class="login_phone_code">
+                        <div class="inner_b"><input type="text" placeholder="请输入短信验证码" class="inner_b fs_14 fc_333"></div>
+                        <span class="inner_b fs_14 fc_333">发送验证码</span>
+                    </div>
+                </div>
+            </div>
+            <div class="login_bottom bgc fc_fff fs_18">登录</div>
+            <div class="login_third">
+               <p class="fs_14 fc_333">第三方登录</p>
+                <svg class="fs_30  icon" aria-hidden="true">
+                    <use xlink:href="#icon-QQ"></use>
+                </svg>
+                <svg class="fs_30  icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixindenglu"></use>
+                </svg>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="login_2">
+       <div class="login_2_wrap">
+        <div class="login_2_account">
+            <p class="fs_14 fc_333">账号</p>
+            <div class="login2_account_input ">
+                <input type="text" placeholder="请输入账号" class="fc_ccc fs_14 fc_333">
+            </div>
+        </div>
+        <div class="login_2_password">
+            <p class="fs_14 fc_333">密码</p>
+            <div class="login2_password_input ">
+                <input type="text" placeholder="请输入密码" class="fc_ccc fs_14 fc_333">
+            </div>
+        </div>
+        <div class="login_2_bottom">
+          <span class="inner_b"></span>
+          <span class="inner_b fs_14">记住我</span>
+          <span class="inner_b fs_14"><a>忘记密码</a></span>
+        </div>
+    </div>
+    </div>
+    <div id="footer"></div>
+</body>
+<script src="../plugin/js/jquery-1.11.3.js"></script>
+<script>
+    $("#header").load("../common/header.html")
+    $("#footer").load("../common/footer.html")
+
+</script>
+
+</html>

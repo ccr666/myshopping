@@ -1,0 +1,84 @@
+.close_man{
+    margin-top: 30px;
+    width: 1200px;
+    background-color: tomato;
+}
+.banner_wrap{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.close_manTitle{
+   
+}
+.close_manContent{
+    margin-top: 20px;
+    width: 1200px;
+    border-top: 2px solid #ccc;
+}
+.close_manContent_list{
+    width: 180px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.close_manContent_listT span{
+    width:12px ;
+    height: 12px;
+    float: right;
+    color: #666;
+    font-size: 12px;
+    font-weight: 800;
+}
+.close_manContent_listT{
+    margin-bottom: 10px;
+}
+.close_manContent_listDescr{
+    padding: 20px 10px 0;
+}
+.close_manContent_listDescr ul li{
+    height: 30px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #666;
+}
+
+.close_manContent_show{
+    display: inline-block;
+    background-color: #ccc;
+    vertical-align: top;
+}
+
+.show_item{
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 5px;
+}
+.price{
+    width: 200px;
+    height: 180px;
+    background-color: yellow;
+}
+.priceTitle{
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    background-color: violet;
+}
+.priceTitle span:nth-child(2){
+    float: right;
+}
+.price_choice{
+    width: 180px;
+    height: 200px;
+    padding-top: 30px;
+    background-color: wheat;
+}
+#mainPriceId{
+    width: 20px;
+    display: inline-block;
+}
+.price_area{
+    overflow: hidden;
+}

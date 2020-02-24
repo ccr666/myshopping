@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商品分类</title>
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/classify.css">
+    <link rel="stylesheet" href="../slider/jslider.css">
+    <link rel="stylesheet" href="../slider/jslider.plastic.css">
+    <script type="text/javascript" src="../slider/jquery1.js"></script>
+    <script type="text/javascript" src="../slider/jquery.dependClass.js"></script>
+    <script type="text/javascript" src="../slider/jquery.slider-min.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <!-- index内容start -->
+    <div class="banner_wrap">
+        <div class="banner_imag">
+            <img src="https://uxresources.baozun.com/prod/88000136/20200205/D115F0F3093C4327249B55DD2FCEABFE.jpg"
+                alt="">
+        </div>
+        <div class="close_man">
+            <div class="close_manTitle">
+                <h3 class="fs_24 fw_600 inner_b">男装</h3>
+                <span class="fs_14 inner_b">[ 共1003件商品 ]</span>
+            </div>
+            <div class="close_manContent inner_b">
+                <div class="close_manContent_list inner_b">
+                    <div class="close_manContent_listT">
+                        <h5 class="fs_14 fw_600 inner_b">男装</h5>
+                        <span class="inner_b">—</span>
+                    </div>
+                    <div class="close_manContent_listDescr">
+                        <ul>
+                            <li>徽标logo系列</li>
+                            <li>外套</li>
+                            <li>Polo衫</li>
+                            <li>T恤/背心</li>
+                            <li>盈卡其轻</li>
+                            <li>休闲裤</li>
+                            <li>1969牛仔裤</li>
+                            <li>针织衫/毛衣</li>
+                            <li>卫衣</li>
+                            <li>衬衫</li>
+                            <li>中/短裤</li>
+                            <li>家居服/睡衣</li>
+                            <li>GapFit运动系列</li>
+                            <li>配饰</li>
+                            <li>内裤/袜子</li>
+                        </ul>
+                        <div class="price">
+                            <div class="priceTitle">
+                                <span class="inner_b fs_14 fc_333">价格删选</span>
+                                <span class="inner_b fs_18 fc_333 fw_600">—</span>
+                            </div>
+                            <div class="price_choice">
+                                <div class="price_slider">
+                                    <div class="layout">
+                                        <div class="layout-slider" style="width: 100%">
+                                            <span style="display: inline-block; width: 180px; padding: 0 5px;">
+                                                <input class="Slider1 fs_14" type="slider" name="price" value="60;750" />
+                                            </span>
+                                        </div>
+                                        <script type="text/javascript" charset="utf-8">
+                                            jQuery(".Slider1").slider(
+                                                { from: 60, to: 750,
+                                                    step: 1, smooth: true,
+                                                    round: 0, dimension: "&nbsp;",
+                                                    skin: "plastic" });
+                                            $(".jslider-pointer").mouseup(function () {
+                                                var min = $(".jslider-value")[0].innerText
+                                                var max = $(".jslider-value")[1].innerText
+                                                $("#minPriceId").val(min)
+                                                $("#maxPriceId").val(max)
+                
+                                                console.log($(".jslider-value")[0].innerText)
+                                                console.log($(".jslider-value")[1].innerText)
+                                            })
+                                        </script>
+                                    </div>
+                                    <div class="price_area">
+                                        <span class="min_price">
+                                            <input class="fs_14" id="minPriceId" type="text" value="60" style="width:20px ;">
+                                            <span class="fs_14">¥</span>
+                                        </span>
+                                        -
+                                        <span class="max_price float_r">
+                                            <input class="fs_14" id="maxPriceId" type="text" value="750" style="width:20px ;">
+                                            <span class="fs_14">¥</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="close_manContent_show inner_b">
+                    <div class="show_item inner_b">
+                        <img data-v-2c3a84f2="" src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" title="男装|工装风格多口袋外套" alt="男装|工装风格多口袋外套" data-src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" lazy="loaded">
+                        <p class="fs_14 fc_ccc">新品男装|毛圈布内里徽标LOGO拉链连帽衫</p>
+                        <p class="fs_14 fc_ccc">¥199.50 ¥399.00</p>
+                        <p class="fs_14 fc_ccc">新品</p>
+                    </div>
+                    <div class="show_item inner_b">
+                        <img data-v-2c3a84f2="" src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" title="男装|工装风格多口袋外套" alt="男装|工装风格多口袋外套" data-src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" lazy="loaded">
+                        <p class="fs_14 fc_ccc">新品男装|毛圈布内里徽标LOGO拉链连帽衫</p>
+                        <p class="fs_14 fc_ccc">¥199.50 ¥399.00</p>
+                        <p class="fs_14 fc_ccc">新品</p>
+                    </div>
+                    <div class="show_item inner_b">
+                        <img data-v-2c3a84f2="" src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" title="男装|工装风格多口袋外套" alt="男装|工装风格多口袋外套" data-src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" lazy="loaded">
+                        <p class="fs_14 fc_ccc">新品男装|毛圈布内里徽标LOGO拉链连帽衫</p>
+                        <p class="fs_14 fc_ccc">¥199.50 ¥399.00</p>
+                        <p class="fs_14 fc_ccc">新品</p>
+                    </div>
+                    <div class="show_item inner_b">
+                        <img data-v-2c3a84f2="" src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" title="男装|工装风格多口袋外套" alt="男装|工装风格多口袋外套" data-src="https://uxresources.baozun.com/prod/88000136/20200215/98C32517670F711148AED81D7E942E50.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" lazy="loaded">
+                        <p class="fs_14 fc_ccc">新品男装|毛圈布内里徽标LOGO拉链连帽衫</p>
+                        <p class="fs_14 fc_ccc">¥199.50 ¥399.00</p>
+                        <p class="fs_14 fc_ccc">新品</p>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+<script src="../plugin/js/jquery-1.11.3.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#header").load("../common/header.html")
+        $("#footer").load("../common/footer.html")
+
+
+        $(".px_li").click(function(){
+            $("#px")[0].innerText =  $(this)[0].innerText
+            $(".px_ul").hide()
+        })
+
+        $("#px").click(function(){
+            $(".px_ul").show()
+        })
+
+        //点击加减号
+        $("#plus").click(function(){
+            $(".con_l_ul").slideToggle();
+            $(".plus1").toggle()
+            $(".plus2").toggle()
+        })
+
+    })
+</script>
+
+</html>

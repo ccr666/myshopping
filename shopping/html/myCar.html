@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myCar</title>
+   <link rel="stylesheet" href="../CSS/common.css">
+   <link rel="stylesheet" href="../CSS/index.css">
+   <link rel="stylesheet" href="../swiper/swiper.css">
+   <link rel="stylesheet" href="../CSS/myCar.css">
+   <script src="../plugin/js/jquery-1.11.3.js"></script>
+   <script src="../swiper/swiper.js"></script>
+   <script src="../JS/myCar.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <!-- index内容start -->
+    <div class="myCar fs_14">
+        <div class="myCarHeader">
+            <h5 class="inner_b fs_24">我的购物袋</h5>
+            <p class="inner_b fs_14" style="margin-left: 20px;">共*件商品</p>
+        </div>
+        <div class="myCarContent">
+            <div class="myCarList inner_b">
+              <div class="myCarListTop">
+                  <div class="myCarListTopC">
+                    <input class="fs_14 inner_b" type="checkbox" name="checkboxAll" id="">
+                    <ul class="inner_b">
+                          <li class="fs_14 inner_b">全选</li>
+                          <li class="fs_14 inner_b">商品属性</li>
+                          <li class="fs_14 inner_b">数量</li>
+                          <li class="fs_14 inner_b">金额</li>
+                      </ul>
+                  </div>
+                  <div class="carListLogo">
+                      <img style="width: 40px;height: 30px; margin: 5px 30px 0;" src="data:image/png;base64,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" class="gap-logo">
+                  </div>
+                  <div class="myCarList">
+                      <div class="myCarListItem">
+                          <div class="myCarListItemWrap">
+                              <input type="checkbox" name="checkbox" id="" value="" class="inner_b">
+                              <img class="inner_b" style="width: 130px; height: 173px;" src="https://uxresources.baozun.com/prod/88000136/20200109/F2A788815CDF5ECF7B05CD965285E430.jpg">
+                              <div class="myCarItemText inner_b">
+                                <p class="fs_14 fc_ccc"> Gap</p>
+                                <p class="fs_14 fc_ccc">女装|时尚基本款纯棉水洗牛仔服</p>
+                                <div class="ItemTextColor" style="margin-top: 20px">
+                                    <span class="inner_b fs_14 fc_666">颜色:</span>
+                                    <span class="inner_b fs_14 fc_333">牛仔蓝</span>
+                                </div>
+                                <div class="ItemTextSize" style="margin-bottom: 20px;">
+                                    <span class="inner_b fs_14 fc_666"> 尺码 :</span>
+                                    <span class="inner_b fs_14 fc_333"> 165/88A(S)</span>
+                                </div>
+                                <div class="ItemTextPrice">
+                                    <span class="inner_b fs_14 fc_666">￥249.50</span>
+                                    <span class="inner_b fs_14 fc_333" style="margin-left: 5px; text-decoration: line-through;"> ￥499.00</span>
+                                    
+                                </div>
+                                <div class="ItemTextOperation" style="margin-top: 20px;">
+                                    <span class="inner_b fs_14 fc_666">删除</span>
+                                    <span class="inner_b fs_14 fc_666" style="margin-left: 10px;">编辑</span>
+                           
+                                </div>
+                              </div>
+                              <div class="listItemcount">
+                                  <div>-</div>
+                                  <div>1</div>
+                                  <div>+</div>
+                                  
+                              </div>
+                              <div class="itemPrice fs_14 inner_b" style="vertical-align: top;">￥249.50</div>
+                            </div>
+                      </div>
+                      <div class="myCarListItem">
+                        <div class="myCarListItemWrap">
+                            <input type="checkbox" name="checkbox" id="" value="" class="inner_b">
+                            <img class="inner_b" style="width: 130px; height: 173px;" src="https://uxresources.baozun.com/prod/88000136/20200109/F2A788815CDF5ECF7B05CD965285E430.jpg">
+                            <div class="myCarItemText inner_b">
+                              <p class="fs_14 fc_ccc"> Gap</p>
+                              <p class="fs_14 fc_ccc">女装|时尚基本款纯棉水洗牛仔服</p>
+                              <div class="ItemTextColor" style="margin-top: 20px">
+                                  <span class="inner_b fs_14 fc_666">颜色:</span>
+                                  <span class="inner_b fs_14 fc_333">牛仔蓝</span>
+                              </div>
+                              <div class="ItemTextSize" style="margin-bottom: 20px;">
+                                  <span class="inner_b fs_14 fc_666"> 尺码 :</span>
+                                  <span class="inner_b fs_14 fc_333"> 165/88A(S)</span>
+                              </div>
+                              <div class="ItemTextPrice">
+                                  <span class="inner_b fs_14 fc_666">￥249.50</span>
+                                  <span class="inner_b fs_14 fc_333" style="margin-left: 5px; text-decoration: line-through;"> ￥499.00</span>
+                                  
+                              </div>
+                              <div class="ItemTextOperation" style="margin-top: 20px;">
+                                  <span class="inner_b fs_14 fc_666">删除</span>
+                                  <span class="inner_b fs_14 fc_666" style="margin-left: 10px;">编辑</span>
+                         
+                              </div>
+                            </div>
+                            <div class="listItemcount">
+                                <div>-</div>
+                                <div>1</div>
+                                <div>+</div>
+                                
+                            </div>
+                            <div class="itemPrice fs_14 inner_b" style="vertical-align: top;">￥249.50</div>
+                          </div>
+                    </div>
+                    <div class="myCarListItem">
+                        <div class="myCarListItemWrap">
+                            <input type="checkbox" name="checkbox" id="" value="" class="inner_b">
+                            <img class="inner_b" style="width: 130px; height: 173px;" src="https://uxresources.baozun.com/prod/88000136/20200109/F2A788815CDF5ECF7B05CD965285E430.jpg">
+                            <div class="myCarItemText inner_b">
+                              <p class="fs_14 fc_ccc"> Gap</p>
+                              <p class="fs_14 fc_ccc">女装|时尚基本款纯棉水洗牛仔服</p>
+                              <div class="ItemTextColor" style="margin-top: 20px">
+                                  <span class="inner_b fs_14 fc_666">颜色:</span>
+                                  <span class="inner_b fs_14 fc_333">牛仔蓝</span>
+                              </div>
+                              <div class="ItemTextSize" style="margin-bottom: 20px;">
+                                  <span class="inner_b fs_14 fc_666"> 尺码 :</span>
+                                  <span class="inner_b fs_14 fc_333"> 165/88A(S)</span>
+                              </div>
+                              <div class="ItemTextPrice">
+                                  <span class="inner_b fs_14 fc_666">￥249.50</span>
+                                  <span class="inner_b fs_14 fc_333" style="margin-left: 5px; text-decoration: line-through;"> ￥499.00</span>
+                                  
+                              </div>
+                              <div class="ItemTextOperation" style="margin-top: 20px;">
+                                  <span class="inner_b fs_14 fc_666">删除</span>
+                                  <span class="inner_b fs_14 fc_666" style="margin-left: 10px;">编辑</span>
+                         
+                              </div>
+                              
+                             
+                              
+                             
+                            </div>
+                            <div class="listItemcount">
+                                <div>-</div>
+                                <div>1</div>
+                                <div>+</div>
+                                
+                            </div>
+                            <div class="itemPrice fs_14 inner_b" style="vertical-align: top;">￥249.50</div>
+                          </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="myCarOrder inner_b">
+                <div class="myCarWrap">
+                    <div class="orderTitle">
+                        <p class="inner_b fs_18 fw_500">订单摘要</p>
+                        <p class="inner_b fs_14">已选1件商品</p>
+                    </div>
+                    <div class="orderPrice">
+                        <div>
+                          <p class="inner_b fs_14">商品总额</p>
+                          <p class="inner_b fs_14 float_r">￥99</p>
+                        </div>
+                        <div>
+                          <p class="inner_b fs_14 fc_be2 ">优惠</p>
+                          <p class="inner_b fs_14 fc_be2 float_r e2">￥0</p>
+                        </div>
+                        
+                     </div>
+                     <div class="cheapCode">
+                       <input class="inner_b fs_14 fc_666" type="text" placeholder="请输入优惠码">
+                       <span class="fs_14 inner_b">使用</span>
+                     </div>
+                     <div class="loginLink">
+                      <p class="fc_333 fs_14"> 立即<a class="fs_14 fw_600">登录</a>使用优惠券/码和抵扣积分并累计积分</p>
+                      <p class="fc_333 fs_14">不是会员？ 立即<a class="fs_14 fw_600">注册</a>获取欢迎礼券，享会员权益</p>
+                      
+                     </div>
+                     <div class="orderTotal">
+                        <p class="inner_b fs_14  ">订单总金额</p>
+                        <p class="inner_b fs_18  float_r ">￥249</p>
+                      </div>
+                      <div class="paybtn">
+                          <span  class="fs_14 fc_fff fw_600">立即结算</span>
+                      </div>
+                      <div class="clearPay">
+                        <span  class="fs_14  fw_600">取消结算</span>
+                    </div>
+                </div>
+              
+             
+               
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+<script src="../plugin/js/jquery-1.11.3.js"></script>
+
+<script>
+    $("#header").load("../common/header.html")
+    $("#footer").load("../common/footer.html")
+</script>
+</html>

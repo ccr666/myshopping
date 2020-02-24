@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd,div,input{ 
+    font-size: 0; font-weight: normal; }
+.bgc{
+    background: #0d2347;
+}
+/* 设置宽度 */
+.orgW{
+        width: 1200px;
+        
+    }
+ul li{
+    list-style: none;
+}
+.inner_b{
+    display: inline-block;
+}
+.fs_13{
+    font-size: 13px;
+}
+.fs_14{
+    font-size: 14px;
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_30{
+    font-size: 30px;
+}
+.fs_24{
+    font-size: 24px;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fc_fff{
+    color: #fff;
+}
+.fc_999{
+    color: #999;
+}
+.fs_12{
+    font-size: 12px;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fw_300{
+    font-weight: 300;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fc_333{
+    color: #333;
+}
+.fc_be2{
+    color: #be200a;
+}
+.fc_122{
+    color: #122147;
+}   
+.fs_20{
+    font-size: 20px;
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_28{
+    font-size: 28px;
+}
+.float_r{
+    float: right;
+}
+.display_b{
+    display: block;
+}
+.verAlign-top{
+    vertical-align: top;
+}
+/* 按钮样式 */
+.paybtn{
+    width: 320px;
+    height: 40px;
+    background-color: #042f6a;
+    border: 1px solid ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+.paybtn span{
+    line-height: 40px;
+}
+.clearPay{
+    margin-top: 10px;
+    width: 320px;
+    height: 40px;
+    border: 1px solid ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    text-align: center;   
+}
+.clearPay span{
+    line-height: 40px;
+    color: #042f6a;
+}
+.footerBtn{
+   margin: 15px 0;
+   width: 50px;
+   padding: 4px 10px;
+   color: #042f6a;
+   display: block;
+   font-size: 12px;
+   line-height: 26px;
+   border: 1px solid #0d2347;
+}

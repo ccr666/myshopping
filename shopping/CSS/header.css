@@ -1,0 +1,108 @@
+
+.header_S,.header_F,.header_T{
+    margin: 0 auto;
+}
+.header_F_wrap{
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    
+    position: relative;
+}
+
+.header_F_wrap ul li{
+    padding:0 14px;
+    font-style: normal!important;
+}
+.header_F_wrap ul li:nth-child(1){
+    background-color: white;
+    
+}
+.header_F_wrap ul li a{
+    text-decoration:none;
+}
+.header_F_wrap ul:nth-child(2){
+    width: 350px;
+    position:absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -175px;
+    text-align: center;
+    color: white;
+}
+.header_F_wrap ul:nth-child(2) a{
+    margin: 0 0 0 5px;
+}
+.header_F_wrap ul:nth-child(3){
+    color: white;
+    float: right;
+}
+
+.header .header_F_ul3 .icon-kefu{
+    margin-left: 20px;
+}
+
+.header_S{
+    overflow: hidden;
+    height: 79px;
+    /* background-color:palevioletred; */
+    margin-top: 15px;
+    position: relative;
+    
+}
+.header_S .logoImg{
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    overflow: hidden;
+   
+}
+.header_S .logo_right{
+    height: 78px;
+    position: relative;
+    float: right;
+   
+  
+   /* background-color: peru; */
+   border-bottom: 1px solid black;
+}
+.logo_right_B i{
+    float: right;
+}
+.logo_right_B{
+    width: 200px;
+    bottom: 0;
+    position: absolute;
+}
+.header_S .logo_right_B input{
+    position: absolute;
+    bottom: 1px;
+    border: none;
+    outline-style: none;
+    width: 150px;
+    height: 22px; 
+    outline-style: none;
+}
+.header_T .nav{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.header_T ul li{
+    height: 40px;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    line-height: 40px;
+}
+.header_T ul li:hover{
+    color: #999;
+    cursor: pointer;
+}

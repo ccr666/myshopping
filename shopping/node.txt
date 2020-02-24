@@ -1,0 +1,5 @@
+标签之间默认的距离使用 *{font_size:0}来去掉。
+flex布局：display: flex;
+         align-items: center;
+         https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-basics
+使用flex布局是，出现布局乱可以加高度解决。

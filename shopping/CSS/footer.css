@@ -1,0 +1,139 @@
+.footer{
+    width: 100%;
+}
+.footer_wrap{
+    margin: 0 auto;
+    width:1200px;
+   padding-bottom: 20px;
+}
+.footer_F{
+    width:1200px;
+    overflow: hidden;
+    margin-bottom:20px;
+    
+}
+.chinese{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.footer_F .footer_F_L{
+}
+.footer_input{
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: #ffffff;
+    width:404px;
+    margin-right: 30px;
+    position: relative;
+}
+.footer_input .el-input__inner{
+    
+    margin-right: 50px;
+    width: 100%;
+    box-shadow: 0 0 2px 0 #fff;
+    border: 1px solid #042f6a;
+    height: 40px;
+    
+}
+.footer_input .jiantou{
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+.footer_F_M span{
+   margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer_F_M .weibo{
+    
+    line-height: 40px;
+    font-size: 40px;
+
+}
+.weixin{
+    
+    line-height: 38px;
+    font-size: 35px;
+
+}
+.footer_F_M{
+    /* background-color: aquamarine; */
+    margin-left: 100px;
+}
+.footer_F_M p{
+   vertical-align: middle;
+   font-size: 16px;
+    line-height: 16px;
+    
+}
+
+.footer_F_R{
+    padding-left: 150px;
+   
+    overflow: hidden;
+}
+.footer_F_R i{
+    float: right;
+}
+.footer_F_R p:nth-child(1){
+    float: right;
+}
+.footer_S{
+    padding-top: 30px;
+      background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+   padding-left: 10px;
+   padding-right: 10px;
+    
+}
+.footerS_one{
+    /* background-color: teal; */
+}
+.footerS_one ul li{
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footerS_two ul li{
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footer_F_M{
+    
+    display: flex;
+    align-items: center;
+}
+.footer_F{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.footer_navTitleFont{
+    color: #0d2347;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.footerS_three span{
+ padding-bottom: 20px;
+}
+.footerS_three ul{
+    padding-top: 20px;
+   
+}
+.footerS_three ul li{
+    line-height: 25px;
+}

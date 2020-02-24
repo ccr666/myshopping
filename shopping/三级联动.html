@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三级联动</title>
+    <script src="country.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+</head>
+<body>
+    <button id="btn">按钮</button>
+<select name="" id="country" onchange="countryFun()">
+    <option value="">请选择省</option>
+</select>
+<select name="" id="city" onchange="cityFun()">
+    <option value="">请选择市</option>
+</select>
+<select name="" id="area" onchange="areaFun()">
+    <option value="">请选择区</option>
+</select>
+</body>
+<script>
+    
+
+$("#btn").click(function(){
+    console.log(country)
+    var index = $("#country").children('option:selected').index()
+})
+
+
+var html = "";
+for(let i=0;i<country.length;i++){
+
+    html+=`<option value="">`+country[i].name+`</option>`
+}
+$("#country").append(html)
+
+
+function countryFun(){
+
+    var index = $("#country").children('option:selected').index()-1//获取选中省份下标
+    $("#city").children().not(':eq(0)').remove()  //append，除了第一个元素都删除
+    var len = country[index].city.length;
+    var city = '';
+    for(let i=0;i<len;i++){
+        city+=`<option value="">`+country[index].city[i].name+`</option>`
+    }
+    // console.log(city)
+    $("#city").append(city)
+}
+
+
+function cityFun() {
+    var index_country = $("#country").children('option:selected').index()-1//获取选中省份下标
+    var index_city = $("#city").children('option:selected').index()-1//获取选中市下标
+    var len = country[index_country].city[index_city].area.length;
+    $("#area").children().not(':eq(0)').remove()  //append，除了第一个元素都删除
+    var area = '';
+    for(let i=0;i<len;i++){
+        area+=`<option value="">`+country[index_country].city[index_city].area[i]+`</option>`
+    }
+    $("#area").append(area)
+}
+
+
+
+
+</script>
+</html>

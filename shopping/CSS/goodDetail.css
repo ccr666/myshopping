@@ -1,0 +1,121 @@
+.goodWrap{
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+    /* background-color: darkgray; */
+}
+.goodTop{
+    padding: 20px;
+}
+.goodInfo{
+    width: 600px;
+    /* height: 200px; */
+    /* background-color: darkkhaki; */
+    overflow: hidden;
+}
+.googTop{
+    padding: 10px 0px 20px 0;
+}
+.newGoods{
+  display:inline-block;
+  padding:5px 6px;
+  background-color:#042f6a;
+}
+.goodActive{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 30px;
+}
+.goodActive span:nth-child(1){
+    display: inline-block;
+    width: 3px;
+    height: 30px;
+    background-color: #be200a;
+    margin-right: 30px;
+}
+.goodActive span:nth-child(2){
+    padding-right: 10px;
+}
+.goodPrice{
+    padding: 15px 5px;
+}
+.goodPrice span:nth-child(2){
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+.colorImg{
+    padding:20px 0px;
+    display: flex;
+    align-items: center;
+}
+.colorImg ul li{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    
+    margin-left: 10px;
+}
+.colorImg ul li:hover{
+    border: 1px solid #112222;
+}
+.goodSize ul{
+    padding: 15px 0 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.goodSize ul li{
+   margin-right: 20px;
+   margin-bottom: 15px;
+    width: 170px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    border-radius: 2px;
+    color: #999;
+    cursor: pointer;
+}
+.goodSize ul li:hover{
+    color: #042f6a;
+    border:1px solid #042f6a;
+}
+.countSpan{
+    width:98px;
+    height: 32px;
+    border: 1px solid #999;
+    margin-top: 10px;
+}
+.countSpan span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    /* border: 1px solid #999; */
+}
+.countSpan span:nth-child(2){
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.goodButton{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.goodShare{
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.goodShare span{
+    padding-left: 10px;
+}

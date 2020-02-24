@@ -1,0 +1,68 @@
+.personMain{
+   
+   
+    overflow: hidden;
+    background-color: #f5f5f5;
+     padding: 20px 0;
+}
+.personWrap{
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.personLeft{
+    width: 231px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 4px;
+    height: 450px;
+   
+}
+.personLT{
+    border-bottom: #f5f5f5 2px solid;
+    padding: 10px 0;
+}
+.personLT span{
+    
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: 700;
+    color: #333;
+    line-height: 38px;
+    padding-left: 11px;
+    padding-top: 16px;
+}
+.myAccount ul {
+    padding: 10px 0;
+}
+.myAccount ul li{
+    /* background-color: black; */
+    padding-left: 26px;
+    height: 38px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.myAccount ul li:hover{
+background-color: #f5f5f5;
+font-weight: 700;
+}
+.orderMain ul {
+    padding: 0px 0;
+}
+.orderMain ul li{
+    padding-left: 26px;
+    height: 38px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.orderMain ul li:hover{
+    background-color: #f5f5f5;
+    font-weight: 700;
+    }
+.personRight{
+    float: right;
+}

@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.index_wrap{
+    margin: 0 auto;
+    width:1200px;
+    /* background-color: thistle; */
+}
+/* .footer_F_M{
+    display: flex;
+} */
